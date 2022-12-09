@@ -42,22 +42,22 @@ def FifaPredict(model , train_dataset, device):
         points = [ 0 , 0, 0, 0]
         for j in range(3):
             for k in range(j+1 ,4):
-                score = 0.0
+                result = 0.0
                 x = train_dataset.getTensorFromTeams(group[j] , group[k])
                 with torch.no_grad():
-                    score = model(x.to(device))[0]
+                    result = model(x.to(device))[0]
 
                 x = train_dataset.getTensorFromTeams(group[k] , group[j])
                 with torch.no_grad():
-                    score += 1- model(x.to(device))[0]
+                    result =( 1- model(x.to(device))[0] +result)/2
 
-                if score > 1.2:
-                    points[j] += 3 + score/100
-                elif score < 0.8:
-                    points[k] += 3 + (2-score)/100
+                if result > 0.6:
+                    points[j] += 3 + result/100
+                elif result < 0.4:
+                    points[k] += 3 + (1-result)/100
                 else:
-                    points[k] += 1 + score/100
-                    points[j] += 1 + (2-score)/100
+                    points[k] += 1 + (1 - result)/100
+                    points[j] += 1 + result/100
         sorted_teams = sorted(range(len(points)), key=lambda k: points[k])
         print("Group " + group_names[index] +":")
         for i in range(1,5):
