@@ -1,0 +1,82 @@
+Group A:
+Netherlands  9
+Ecuador  6
+Qatar  1
+Senegal  1
+
+
+Group B:
+England  9
+Wales  2
+Iran  2
+United States  2
+
+
+Group C:
+Argentina  9
+Poland  4
+Mexico  4
+Saudi Arabia  0
+
+
+Group D:
+France  9
+Denmark  6
+Tunisia  1
+Australia  1
+
+
+Group E:
+Germany  7
+Spain  7
+Costa Rica  1
+Japan  1
+
+
+Group F:
+Croatia  7
+Belgium  7
+Morocco  3
+Canada  0
+
+
+Group G:
+Brazil  9
+Switzerland  4
+Serbia  4
+Cameroon  0
+
+
+Group H:
+Portugal  7
+Uruguay  7
+Ghana  1
+South Korea  1
+
+
+
+Last 16
+Netherlands  -  Wales  -> Netherlands
+Argentina  -  Denmark  -> Argentina
+Germany  -  Belgium  -> Germany
+Brazil  -  Uruguay  -> Brazil
+England  -  Ecuador  -> England
+France  -  Poland  -> France
+Croatia  -  Spain  -> Spain
+Portugal  -  Switzerland  -> Portugal
+
+
+Quarter-finals
+Netherlands  -  Argentina  -> Argentina
+Germany  -  Brazil  -> Brazil
+England  -  France  -> France
+Spain  -  Portugal  -> Spain
+
+
+Semi-finals
+Argentina  -  Brazil  -> Brazil
+France  -  Spain  -> Spain
+
+
+Final
+Brazil  -  Spain  -> Brazil

@@ -1,2 +1,4 @@
 # FIFA2022
-FIFA2022 prediction using python and Machine Learning
+A simple FIFA 2022 predictor for fun and learning a little python. It uses a neural network, and the training code is written in Pytorch.
+
+Data was taken from [Kaggle](https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017)
